@@ -1,0 +1,32 @@
+INSERT INTO EXAME (nome, data_cadastro, data_atualizacao) VALUES ('Exame1', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+INSERT INTO EXAME (nome, data_cadastro, data_atualizacao) VALUES ('Exame2', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+INSERT INTO EXAME (nome, data_cadastro, data_atualizacao) VALUES ('Exame3', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+INSERT INTO EXAME (nome, data_cadastro, data_atualizacao) VALUES ('Exame4', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+INSERT INTO EXAME (nome, data_cadastro, data_atualizacao) VALUES ('Exame5', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+INSERT INTO EXAME (nome, data_cadastro, data_atualizacao) VALUES ('Exame6', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+INSERT INTO EXAME (nome, data_cadastro, data_atualizacao) VALUES ('Exame7', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+
+INSERT INTO FUNCIONARIO (nome, data_cadastro, data_atualizacao, id_externo) VALUES ('Funcionario1', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, UUID());
+INSERT INTO FUNCIONARIO (nome, data_cadastro, data_atualizacao, id_externo) VALUES ('Funcionario2', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, UUID());
+INSERT INTO FUNCIONARIO (nome, data_cadastro, data_atualizacao, id_externo) VALUES ('Funcionario3', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, UUID());
+
+INSERT INTO EXAMES_REALIZADOS (data_realizacao, data_cadastro, data_atualizacao, id_externo, funcionario_id, exame_id) VALUES ('2023-12-10T08:00:00', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, UUID(), 1, 1);
+INSERT INTO EXAMES_REALIZADOS (data_realizacao, data_cadastro, data_atualizacao, id_externo, funcionario_id, exame_id) VALUES ('2023-12-10T10:30:00', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, UUID(), 2, 1);
+INSERT INTO EXAMES_REALIZADOS (data_realizacao, data_cadastro, data_atualizacao, id_externo, funcionario_id, exame_id) VALUES ('2023-12-10T14:45:00', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, UUID(), 3, 2);
+INSERT INTO EXAMES_REALIZADOS (data_realizacao, data_cadastro, data_atualizacao, id_externo, funcionario_id, exame_id) VALUES ('2023-12-11T09:15:00', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, UUID(), 1, 2);
+INSERT INTO EXAMES_REALIZADOS (data_realizacao, data_cadastro, data_atualizacao, id_externo, funcionario_id, exame_id) VALUES ('2023-12-11T11:45:00', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, UUID(), 2, 3);
+INSERT INTO EXAMES_REALIZADOS (data_realizacao, data_cadastro, data_atualizacao, id_externo, funcionario_id, exame_id) VALUES ('2023-12-11T15:30:00', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, UUID(), 3, 3);
+INSERT INTO EXAMES_REALIZADOS (data_realizacao, data_cadastro, data_atualizacao, id_externo, funcionario_id, exame_id) VALUES ('2023-12-12T08:30:00', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, UUID(), 1, 4);
+INSERT INTO EXAMES_REALIZADOS (data_realizacao, data_cadastro, data_atualizacao, id_externo, funcionario_id, exame_id) VALUES ('2023-12-12T12:00:00', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, UUID(), 2, 4);
+INSERT INTO EXAMES_REALIZADOS (data_realizacao, data_cadastro, data_atualizacao, id_externo, funcionario_id, exame_id) VALUES ('2023-12-12T16:15:00', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, UUID(), 3, 5);
+INSERT INTO EXAMES_REALIZADOS (data_realizacao, data_cadastro, data_atualizacao, id_externo, funcionario_id, exame_id) VALUES ('2023-12-13T10:00:00', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, UUID(), 1, 6);
+INSERT INTO EXAMES_REALIZADOS (data_realizacao, data_cadastro, data_atualizacao, id_externo, funcionario_id, exame_id) VALUES ('2023-12-13T13:30:00', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, UUID(), 2, 6);
+INSERT INTO EXAMES_REALIZADOS (data_realizacao, data_cadastro, data_atualizacao, id_externo, funcionario_id, exame_id) VALUES ('2023-12-13T17:45:00', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, UUID(), 3, 6);
+INSERT INTO EXAMES_REALIZADOS (data_realizacao, data_cadastro, data_atualizacao, id_externo, funcionario_id, exame_id) VALUES ('2023-12-14T09:45:00', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, UUID(), 1, 6);
+INSERT INTO EXAMES_REALIZADOS (data_realizacao, data_cadastro, data_atualizacao, id_externo, funcionario_id, exame_id) VALUES ('2023-12-14T11:00:00', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, UUID(), 2, 3);
+INSERT INTO EXAMES_REALIZADOS (data_realizacao, data_cadastro, data_atualizacao, id_externo, funcionario_id, exame_id) VALUES ('2023-12-14T14:00:00', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, UUID(), 3, 3);
+INSERT INTO EXAMES_REALIZADOS (data_realizacao, data_cadastro, data_atualizacao, id_externo, funcionario_id, exame_id) VALUES ('2023-12-15T08:45:00', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, UUID(), 1, 1);
+INSERT INTO EXAMES_REALIZADOS (data_realizacao, data_cadastro, data_atualizacao, id_externo, funcionario_id, exame_id) VALUES ('2023-12-15T12:30:00', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, UUID(), 2, 2);
+INSERT INTO EXAMES_REALIZADOS (data_realizacao, data_cadastro, data_atualizacao, id_externo, funcionario_id, exame_id) VALUES ('2023-12-15T16:00:00', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, UUID(), 3, 6);
+INSERT INTO EXAMES_REALIZADOS (data_realizacao, data_cadastro, data_atualizacao, id_externo, funcionario_id, exame_id) VALUES ('2023-12-15T16:00:00', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, UUID(), 1, 4);
+INSERT INTO EXAMES_REALIZADOS (data_realizacao, data_cadastro, data_atualizacao, id_externo, funcionario_id, exame_id) VALUES ('2023-12-15T16:00:00', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, UUID(), 2, 6);
