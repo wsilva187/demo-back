@@ -24,7 +24,7 @@ import lombok.SneakyThrows;
 
 @RestController
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 @RequestMapping("/funcionario")
 public class FuncionarioController implements FuncionarioRestService {
 
